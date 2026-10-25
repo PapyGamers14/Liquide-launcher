@@ -1,0 +1,29 @@
+<resources>
+    <string name="brand">Liquide</string>
+    <string name="all_apps">Applications</string>
+    <string name="favorites">Favoris</string>
+    <string name="settings">Réglages</string>
+    <string name="favorites_title">Vos essentiels.</string>
+    <string name="home_title">Votre soirée commence ici.</string>
+    <string name="home_description">Vos applications, à votre rythme.</string>
+    <string name="loading">Chargement des applications…</string>
+    <string name="catalog_error">Impossible de charger les applications. Réessayez.</string>
+    <string name="retry">Réessayer</string>
+    <string name="empty_favorites">Ajoutez un favori avec un appui long sur une application.</string>
+    <string name="empty_apps">Aucune application TV détectée. Installez une application depuis le Play Store, puis revenez ici.</string>
+    <string name="remote_help">Flèches : naviguer · OK : ouvrir · Appui long sur OK : favoris</string>
+    <string name="motion_description">Réduisez les animations pour un affichage plus calme.</string>
+    <string name="motion_enable">Autoriser les animations</string>
+    <string name="motion_reduce">Réduire les animations</string>
+    <string name="low_ram">Les animations sont limitées pour préserver la fluidité de ce téléviseur.</string>
+    <string name="tv_settings">Réglages du téléviseur</string>
+    <string name="close">Fermer</string>
+    <string name="favorite_description">Personnalisez les applications de votre sélection.</string>
+    <string name="remove_favorite">Retirer des favoris</string>
+    <string name="add_favorite">Ajouter aux favoris</string>
+    <string name="cancel">Annuler</string>
+    <string name="action_error">Action impossible</string>
+    <string name="save_error">La modification n’a pas été enregistrée. Réessayez.</string>
+    <string name="launch_error">Cette application ou ce réglage n’est plus accessible. La liste sera actualisée.</string>
+    <string name="favorite_badge">Favori</string>
+</resources>

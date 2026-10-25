@@ -1,0 +1,13 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["feature/home/src/main/kotlin"],
+  "locale": "fr-FR",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": [],
+  "requiredCommands": ["sources", "unit", "android"],
+  "commands": {
+    "sources": "python3 tools/verify_sources.py",
+    "unit": "./gradlew :core:model:test",
+    "android": "./gradlew :app:lintDebug :app:assembleDebug"
+  }
+}
