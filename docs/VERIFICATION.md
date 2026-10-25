@@ -20,3 +20,11 @@ Compilation Kotlin, tests JUnit, Android Lint, test D-pad instrumenté, test TV,
 comparaison visuelle runtime et qualification Play Store. Aucun APK validé n’est fourni.
 La maquette image de la conversation est une étude visuelle, pas un résultat de compilation Android.
 Le modèle de CI est livré dans docs/ci/android.yml.example et reste à activer. Aucun résultat CI n’est revendiqué.
+
+## Correction du Wrapper Gradle
+
+Wrapper officiel Gradle 9.6.0 ajouté : scripts Unix/Windows, JAR et propriétés.
+Empreinte SHA-256 du JAR contrôlée contre celle publiée par Gradle ; empreinte de distribution fixée.
+Syntaxe shell validée. Le lancement du Wrapper atteint le téléchargement de la distribution,
+mais Java renvoie UnknownHostException pour services.gradle.org dans cet environnement.
+Cela ne constitue pas une compilation réussie ; relancer la synchronisation depuis Android Studio.

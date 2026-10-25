@@ -42,13 +42,8 @@ export ANDROID_HOME="/opt/homebrew/share/android-commandlinetools"
 ```
 
 Adaptez `ANDROID_HOME` si Android Studio utilise un autre SDK. Ce chemin correspond au SDK détecté sur le Mac.
-Le script `gradlew` fourni est un **bootstrap source**, et non le Wrapper binaire officiel :
-il télécharge Gradle 9.6.0 et contrôle son SHA-256 publié par Gradle, puis le conserve dans `.tooling/`.
-Pour obtenir le Wrapper standard après ce premier téléchargement :
-
-```sh
-./gradlew wrapper --gradle-version 9.6.0
-```
+Le Wrapper Gradle officiel est fourni (`gradlew`, `gradlew.bat`, JAR et propriétés).
+La distribution Gradle 9.6.0 est vérifiée par un SHA-256 fixé dans les propriétés.
 
 Ouvrez ensuite le dossier dans Android Studio et synchronisez le projet.
 APK de débogage attendu après une compilation réussie : `app/build/outputs/apk/debug/app-debug.apk`.

@@ -7,3 +7,5 @@ local.properties
 *.jks
 *.keystore
 .DS_Store
+
+.gradle-local/
