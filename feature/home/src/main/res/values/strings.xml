@@ -1,0 +1,29 @@
+<resources>
+    <string name="brand">Liquide</string>
+    <string name="all_apps">Apps</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="favorites_title">Your essentials.</string>
+    <string name="home_title">Your evening starts here.</string>
+    <string name="home_description">Your apps, at your pace.</string>
+    <string name="loading">Loading apps…</string>
+    <string name="catalog_error">Apps could not be loaded. Try again.</string>
+    <string name="retry">Try again</string>
+    <string name="empty_favorites">Long-press an app to add a favorite.</string>
+    <string name="empty_apps">No TV apps found. Install an app from the Play Store, then return here.</string>
+    <string name="remote_help">Arrows: navigate · OK: open · Hold OK: favorites</string>
+    <string name="motion_description">Reduce animations for a calmer experience.</string>
+    <string name="motion_enable">Allow animations</string>
+    <string name="motion_reduce">Reduce animations</string>
+    <string name="low_ram">Animations are limited to keep this TV responsive.</string>
+    <string name="tv_settings">TV settings</string>
+    <string name="close">Close</string>
+    <string name="favorite_description">Choose the apps in your favorites.</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_error">Action unavailable</string>
+    <string name="save_error">Your change was not saved. Try again.</string>
+    <string name="launch_error">This app or setting is no longer available. The list will be refreshed.</string>
+    <string name="favorite_badge">Favorite</string>
+</resources>
