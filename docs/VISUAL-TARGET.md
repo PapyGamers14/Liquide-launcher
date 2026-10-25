@@ -34,11 +34,11 @@ sans retirer automatiquement les effets sur la base du nom du fabricant ou de la
 Compiler avec API 37 ; vérifier changements de comportement et version du firmware TV.
 Nouvelles API utilisées seulement après détection de disponibilité. Une API Android générale n’est pas une garantie de disponibilité sur Google TV.
 Les annonces futures sont une veille et un backlog, jamais une dépendance promise.
-Stack AGP 9.4.0, Gradle 9.6.0, Kotlin 2.4.21 : sélection documentée, compilation à valider après accès réseau et SDK.
+Stack AGP 9.2.1, Gradle 9.6.0, Kotlin 2.4.21 : sélection documentée, compilation à valider après accès réseau et SDK.
 Compose BOM initial 2025.04.01 : dépendance encore à actualiser et qualifier avant toute revendication de stack entièrement à jour.
 
 ## Sources techniques
 
-- https://developer.android.com/build/releases/agp-9-4-0-release-notes
+- https://developer.android.com/build/releases/agp-9-2-0-release-notes
 - https://developer.android.com/build/migrate-to-built-in-kotlin
 - https://kotlinlang.org/docs/releases.html

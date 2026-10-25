@@ -32,7 +32,7 @@ Un appareil Google TV n’expose pas nécessairement un choix d’accueil par d�
 
 ## Ouvrir et compiler sur le Mac
 
-Prérequis : Android Studio, SDK Android 37 + Build Tools 36.0.0 et JDK **17 ou 21**.
+Prérequis : Android Studio, SDK Android 37 + Build Tools 36.0.0 et JDK **21** fourni avec Android Studio.
 Le terminal doit avoir accès à Internet pour télécharger Gradle et les dépendances.
 
 ```sh
@@ -90,3 +90,10 @@ Ni les catalogues de streaming, ni les aperçus vidéo, ni le verre réfractif, 
 Le projet est proposé dans une branche de développement. La CI est fournie sous forme de modèle
 `docs/ci/android.yml.example` : elle n’est pas active, car la connexion Git locale ne dispose pas du scope workflow.
 Compilation Android et validation sur TV restent à réaliser avant intégration en version publiée.
+
+## Compatibilité Android Studio vérifiée
+
+Android Studio 2026.1.1 installé accepte AGP jusqu’à 9.2.1. Le projet utilise donc AGP 9.2.1,
+avec Gradle 9.6.0 déjà téléchargé (minimum documenté pour AGP 9.2 : 9.4.1).
+La compilation utilise le JDK 21 intégré tout en produisant du bytecode JVM 17.
+Le SDK Android 37 reste requis ; API minimale TV inchangée à 26.

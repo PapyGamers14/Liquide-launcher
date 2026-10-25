@@ -15,7 +15,7 @@ Aucun ancien dépôt utilisé. La Sony est un appareil de test, pas une dépenda
 
 ## Compatibilité et sécurité
 
-Socle API 26, compile/target 37 et AGP 9.4.0 / Gradle 9.6.0 / Kotlin 2.4.21. Le SDK 37 doit être installé. **Réévaluer targetSdk et exigences Play à la soumission**.
+Socle API 26, compile/target 37 et AGP 9.2.1 / Gradle 9.6.0 / Kotlin 2.4.21. Le SDK 37 doit être installé. **Réévaluer targetSdk et exigences Play à la soumission**.
 Les fonctions Sony/Philips/TCL/etc. devront implémenter des adaptateurs optionnels exposant Supported/Unavailable.
 Une absence de capacité retire la commande ou propose l’écran système ; jamais un bouton muet.
 ADB est uniquement un outil de développement. Le cœur public ne requiert ni root, ni ADB, ni permissions signature.

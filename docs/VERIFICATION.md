@@ -28,3 +28,10 @@ Empreinte SHA-256 du JAR contrôlée contre celle publiée par Gradle ; empreint
 Syntaxe shell validée. Le lancement du Wrapper atteint le téléchargement de la distribution,
 mais Java renvoie UnknownHostException pour services.gradle.org dans cet environnement.
 Cela ne constitue pas une compilation réussie ; relancer la synchronisation depuis Android Studio.
+
+## Correction de compatibilité Android Studio
+
+Le journal local Android Studio 2026.1.1 indique explicitement une limite AGP 9.2.1.
+Le catalogue passe de 9.4.0 à 9.2.1 ; compileSdk/targetSdk 37 sont conservés (support documenté AGP 9.2).
+La toolchain utilise le JDK 21 installé, avec bytecode 17 explicite, pour éviter d’exiger un JDK 17 absent.
+Contrôles statiques et cohérence des sources exécutés ; nouvelle synchronisation IDE et compilation à confirmer.

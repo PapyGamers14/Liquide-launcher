@@ -9,7 +9,10 @@ android {
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
 
 }
-kotlin { jvmToolchain(17) }
+kotlin {
+    jvmToolchain(21)
+    compilerOptions { jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17) }
+}
 dependencies {
     implementation(project(":core:model"))
     implementation(libs.coroutines)
