@@ -35,3 +35,11 @@ Le journal local Android Studio 2026.1.1 indique explicitement une limite AGP 9.
 Le catalogue passe de 9.4.0 à 9.2.1 ; compileSdk/targetSdk 37 sont conservés (support documenté AGP 9.2).
 La toolchain utilise le JDK 21 installé, avec bytecode 17 explicite, pour éviter d’exiger un JDK 17 absent.
 Contrôles statiques et cohérence des sources exécutés ; nouvelle synchronisation IDE et compilation à confirmer.
+
+## Première compilation réussie sur le Mac
+
+La commande utilisateur `:core:model:test :app:assembleDebug` a terminé avec BUILD SUCCESSFUL.
+APK présent dans app/build/outputs/apk/debug/app-debug.apk (environ 10 Mio).
+Rapport JUnit vérifié : AppOrderingTest, 2 tests, 0 échec, 0 erreur, 0 ignoré.
+La validation runtime TV reste en attente : appareil absent de adb devices, reconnexion à 192.168.1.47:5555
+renvoyant No route to host. Aucune installation n’a été effectuée lors de cette tentative.
