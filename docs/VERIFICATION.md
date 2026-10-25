@@ -43,3 +43,12 @@ APK présent dans app/build/outputs/apk/debug/app-debug.apk (environ 10 Mio).
 Rapport JUnit vérifié : AppOrderingTest, 2 tests, 0 échec, 0 erreur, 0 ignoré.
 La validation runtime TV reste en attente : appareil absent de adb devices, reconnexion à 192.168.1.47:5555
 renvoyant No route to host. Aucune installation n’a été effectuée lors de cette tentative.
+
+## Premier lancement réel sur Sony
+
+Reconnexion ADB rétablie. Installation de l’APK debug : Success.
+Lancement explicite de MainActivity : Status ok, démarrage à froid rapporté 3328 ms (debug, pas un benchmark release).
+Processus confirmé actif ; capture interne inspectée : grille et icônes des applications installées affichées.
+Ce contrôle valide installation/démarrage/chargement initial seulement. Navigation complète, favoris,
+reprise, stabilité longue durée, performance release et fidélité tvOS restent à qualifier.
+Aucun changement de launcher par défaut effectué.
